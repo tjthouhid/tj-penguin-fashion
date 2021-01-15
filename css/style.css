@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #3e3e3e;
+}
+
+h1,
+h2 {
+  font-family: "Bebas Neue", cursive;
+  line-height: 0.9;
+  color: #363958;
+}
+
+h1 {
+  font-size: 64px;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+h4 {
+  color: #363958;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.text-orange {
+  color: #fa804c;
+}
+
+.btn-blue {
+  background-image: linear-gradient(#3d4ff3, #3543bc);
+  color: #fff;
+  font-size: 16px;
+  padding: 10px 24px;
+  border-radius: 10px;
+}
+
+header nav {
+  position: relative;
+}
+
+.bg-dot {
+  position: absolute;
+  top: 0;
+  left: 30%;
+}
+
+header .logo-img {
+  width: 300px;
+}
+
+header .hero-img {
+  width: 90%;
+}
+
+header ul li a {
+  margin: 0 20px;
+  font-weight: 700;
+  color: #3c3c3c;
+}
+
+.shoe-card {
+  border: 0;
+}
+
+.shoe-card-footer {
+  background-color: #fff;
+  border: 0;
+}
+
+.order-flow-text img {
+  width: 80px;
+  height: 80px;
+}
+
+footer {
+  background-image: linear-gradient(#3d4ff3, #3543bc);
+}
+
+footer p {
+  margin-bottom: 0;
+  padding: 50px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 992px) {
+  .bg-dot {
+    display: none;
+  }
+}
